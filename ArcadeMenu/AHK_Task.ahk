@@ -1,0 +1,35 @@
+﻿#NoEnv 
+try{
+Run, C:\Emulators\Microvirt\MEmu\MEmuConsole.exe ShutdownVm  MEmu
+}
+try{
+process,close,pcsx2.exe
+}
+try{
+process,close,Dolphin.exe
+}
+try{
+process,close,Project64.exe
+}
+try{
+process,close,redream.exe
+}
+try{
+process,close,retroarch.exe
+}
+try{
+process,close,Future Pinball.exe
+}
+try{
+process,close,VPinballX.exe
+}
+try{
+process,close,mame64.exe
+}
+try{
+process,close,BigBox.exe
+}
+try{
+process,close,kodi.exe
+}
+ExitApp
